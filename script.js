@@ -130,14 +130,14 @@ const projects = {
     html: `
       <div class="modal-grid">
         <img src="assets/rne_robot_cad.png" alt="R&E robot arm CAD design" />
-        <img src="assets/rne_robot_test.png" alt="R&E robot arm control test" />
+        <img src="assets/rne_robot_test.webp" alt="R&E robot arm control test" />
       </div>
 
       <h3>연구 전개</h3>
       <p>고등학생 연구팀과 함께 얼굴 움직임을 인식하고 디스플레이 위치를 조절하는 아이디어를 구체화했습니다. 모니터암 역할의 로봇팔 기구를 CAD로 설계하고, 연구실 보유 로봇팔을 이용해 자세·속도·경로 제어를 실제로 검증했습니다.</p>
 
       <h3>Vision Prototype</h3>
-      <img src="assets/rne_face_tracking.png" alt="OpenCV face tracking prototype" />
+      <img src="assets/rne_face_tracking.webp" alt="OpenCV face tracking prototype" />
       <p>OpenCV 기반 얼굴 인식 및 중심점 추적, 이동 방향·속도 벡터 계산까지 구현해 카메라 입력을 제어 신호로 연결하기 위한 전단 알고리즘을 검증했습니다. 일정 제약으로 로봇팔과 얼굴추적의 최종 실시간 통합까지는 진행하지 못했고, R&E 마감 대응을 위해 별도의 소리 기반 보안 연구도 수행했습니다.</p>
 
       <h3>Mentoring Role</h3>

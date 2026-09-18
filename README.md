@@ -1,27 +1,27 @@
-# 포트폴리오 홈페이지 (업데이트 버전)
+# Hyo-Young Jeong | Robotics & Mechanical R&D Portfolio
 
-## 이번 수정 사항
-- 사용자가 제공한 DCF 이미지 5장을 실제 홈페이지에 반영
-- Hero 영역에 DCF 대표 형상 이미지 반영
-- DCF Research Highlight 섹션 추가
-- 역설계 검증 표를 HTML 표로 재구성
-- 원본 캡처 표도 assets 폴더에 유지
+정효영의 채용용 연구·엔지니어링 포트폴리오입니다.  
+로봇공학 전공과 학부연구생 경험을 바탕으로 CAE/FEM, FEM-AI 대리모델·역설계, 로봇 비전·제어 프로젝트와 연구 산출물을 정리했습니다.
 
-## 실행 방법
-1. index.html을 브라우저에서 열면 바로 확인할 수 있습니다.
-2. 더 편하게 보려면 VS Code + Live Server 사용을 권장합니다.
+## Main Cases
+- **DCF FEM-AI Surrogate & Inverse Design** — 350개 FEM 데이터, MLP 대리모델, SLSQP 역설계, FEM 재해석
+- **Ballistic Impact CAE** — 선행연구 조건 재현, Explicit Dynamics 수치 안정화, 문헌 결과 비교, 헬멧 형상 적용
 
-## 다음에 추가하면 좋은 자료
-- AprilTag 검출 화면
-- D455 Pan/Tilt 실제 사진
-- Explicit Dynamics 결과 이미지
+## Additional Experience
+- D455 기반 Pan/Tilt Target Tracking
+- AprilTag 기반 모바일 로봇 접근 제어
+- R&E 멘토링 및 자세 교정 디스플레이 시스템 특허 출원
+- SAFE-ONEQ · ㈜에듀원큐 산학협력 R&D 문서화 경험
+- DCF 아이디어 기반 기업과제 연구개발계획서 기획·작성
 
-- 특허 출원 섹션 추가: 10-2025-0134168 / 2025.09.18 / 발명자 정효영
-- 공개용으로 민감 식별정보(DAS 접근코드, 특허고객번호 등)는 홈페이지에 미표시
+## Research Outputs
+- Journal paper accepted (2026-09-16)
+- ICROS 2026 학부생 논문경진대회 발표
+- Patent Application No. 10-2025-0134168
+- DCF FEM-AI manuscript
 
+## Local Preview
+`index.html`을 브라우저에서 열거나 VS Code Live Server로 실행할 수 있습니다.
 
-## CAE-AI Pilot Journey 추가
-- 2025.09 방법론 조사
-- 2025.11 pilot problem 정의 / 1/4-Full FEM 검증 / 임시 데이터셋 AI dry run
-- 2026.01 Probe 기반 데이터셋 수정
-- 이후 DCF FEM+AI 연구로 연결
+## Deployment
+GitHub Pages에서 `main` branch의 `/(root)`를 배포 대상으로 사용합니다.
