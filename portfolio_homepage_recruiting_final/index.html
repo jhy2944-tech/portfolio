@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="기계 R&amp;D 엔지니어 포트폴리오" name="description"/>
+<title>Mechanical R&amp;D Portfolio</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="noise"></div>
+<header class="nav-wrap">
+<nav class="nav container">
+<a class="brand" href="#top">
+<span class="brand-mark">HY</span>
+<span class="brand-text">R&amp;D PORTFOLIO</span>
+</a>
+<div class="nav-links"><a href="#about">ABOUT</a><a href="#dcf-highlight">DCF RESEARCH</a><a href="#ballistic-highlight">CAE CASE</a><a href="#experience">EXPERIENCE</a><a href="#other-projects">OTHER WORKS</a><a href="#outputs">OUTPUTS</a><a href="#contact">CONTACT</a></div>
+</nav>
+</header>
+<main id="top">
+<section class="hero container hero-research">
+<div class="hero-copy reveal">
+<p class="eyebrow">ROBOTICS &amp; MECHANICAL R&amp;D ENGINEER</p>
+<h1>해석과 로봇 시스템을<br/><span>검증 가능한 결과</span>로<br/>연결합니다.</h1>
+<p class="hero-desc">유한요소해석(FEM) 기반 구조 검증, AI 대리모델과 역설계, 로봇 비전·제어 시스템 구현을 수행했습니다. 결과는 수치 비교와 반복 실험으로 확인하고 논문·학회·특허 형태의 산출물로 정리해 왔습니다.</p>
+<div class="hero-actions">
+<a class="btn primary" href="#dcf-highlight">대표 연구 보기</a>
+<a class="btn ghost" href="#outputs">연구 성과 보기</a>
+</div>
+<div class="hero-credibility">
+<span>Journal Paper · Accepted</span><span>Research Presentation</span><span>Patent Application</span><span>350 FEM Cases</span>
+</div>
+</div>
+<div class="hero-visual reveal">
+<div class="hero-image-card hero-evidence-card">
+<div class="image-head"><span>SELECTED ENGINEERING EVIDENCE</span><span class="live-dot">FEM · CAE · ROBOTICS</span></div>
+<div class="hero-evidence-grid">
+<figure class="hero-evidence-main"><img alt="DCF 형상과 유한요소 메쉬" src="assets/dcf_geometry_mesh.png"/><figcaption><b>DCF FEM-AI</b><span>Geometry · Mesh · 350 FEM cases</span></figcaption></figure>
+<figure><img alt="FEM 기준값과 AI 예측값 비교" src="assets/dcf_parity.png"/><figcaption><b>Surrogate Validation</b><span>R² &gt; 0.99</span></figcaption></figure>
+<figure><img alt="방탄 충돌 Explicit Dynamics 결과" src="assets/ballistic_impact_demo_poster.jpg"/><figcaption><b>Ballistic CAE</b><span>Reference reproduction</span></figcaption></figure>
+<figure><img alt="D455 팬틸트 추적 시스템" src="assets/turret_system.png"/><figcaption><b>Robot Tracking</b><span>Vision · Pan/Tilt control</span></figcaption></figure>
+</div>
+</div>
+</div>
+</section>
+<section class="research-proof container reveal">
+<div><strong>350</strong><span>DCF FEM samples</span></div>
+<div><strong>R² &gt; 0.99</strong><span>Primary outputs</span></div>
+<div><strong>1.90–3.50%</strong><span>Inverse-design FEM error</span></div>
+<div><strong>Accepted</strong><span>Journal paper · 2026.09.16</span></div>
+</section>
+<section class="section container" id="about">
+<div class="section-head reveal about-title">
+<p class="eyebrow">ABOUT / ENGINEERING PROFILE</p>
+<h2>직접 구현하고,<br/>수치로 확인하는 엔지니어입니다.</h2>
+</div>
+<div class="about-research-grid">
+<div class="about-profile reveal">
+<div class="profile-block">
+<img loading="lazy" alt="정효영 프로필 사진" src="assets/profile_hyo_young_jeong.png"/>
+<div><span>ROBOTICS ENGINEERING</span><h3>정효영 <small>Hyo-Young Jeong</small></h3><p>Yeungnam University · Robot System Lab · CAE · FEM-AI · Mechanical R&amp;D</p></div>
+</div>
+<p class="about-lead">로봇공학 기반의 학부연구 경험을 바탕으로 <strong>CAE 구조해석, 기계 설계, 데이터 기반 모델링</strong>을 수행했습니다. 해석 결과를 실제 설계 검증과 연결하는 것을 목표로 연구를 진행했습니다. 해석이나 코드를 실행하는 데서 끝내지 않고 기준값과 비교해 오차를 확인하고, 결과를 설명 가능한 형태로 정리하는 것을 중요하게 생각합니다.</p>
+<p>연구실에서는 논문 연구와 학회 발표뿐 아니라 산학협력 R&amp;D 문서, CAE 스터디, 팀 프로젝트 운영에도 참여하며 기술 수행과 협업·문서화를 함께 경험했습니다.</p>
+
+<div class="profile-facts">
+  <div><span>EDUCATION</span><strong>Yeungnam University</strong><small>B.S. Candidate · Robotics Engineering · 2021–Present</small></div>
+  <div><span>RESEARCH</span><strong>Robot System Lab</strong><small>Undergraduate Researcher · ~2 years</small></div>
+  <div><span>STATUS</span><strong>Expected Graduation</strong><small>Robotics / Mechanical R&amp;D</small></div>
+</div>
+</div>
+<div class="readiness-grid readiness-skills reveal">
+<article><span>01</span><h3>CAE / FEM</h3><p>Static · Modal · Explicit Dynamics 모델링과 결과 비교</p></article>
+<article><span>02</span><h3>AI / Optimization</h3><p>FEM 데이터셋 구축, MLP 대리모델, SLSQP 역설계</p></article>
+<article><span>03</span><h3>Robot Vision / Control</h3><p>카메라 기반 인식, Pan/Tilt 및 모바일 로봇 제어</p></article>
+<article><span>04</span><h3>Technical Documentation</h3><p>논문·학회 발표·R&amp;D 제안 문서로 결과 구조화</p></article>
+</div>
+</div>
+</section>
+<section class="section container flagship-index" id="projects">
+<div class="section-head reveal">
+<p class="eyebrow">TWO FLAGSHIP CASES</p>
+<h2>연구자로서의 사고방식과<br/>엔지니어로서의 문제 해결 방식을 보여주는 두 프로젝트</h2>
+</div>
+<div class="flagship-cards">
+<a class="flagship-card research reveal" href="#dcf-highlight">
+<div class="flagship-media"><img alt="DCF FEM-AI 연구 워크플로우" src="assets/dcf_workflow.png"/></div>
+<div class="flagship-copy"><span>01 · RESEARCH CASE</span><h3>DCF FEM-AI Surrogate &amp; Inverse Design</h3><p>FEM 데이터 생성부터 AI 대리모델, 역설계, FEM 재해석까지 하나의 검증 루프로 구성.</p><b>FEM · PyTorch · SLSQP · Re-analysis →</b></div>
+</a>
+<a class="flagship-card engineering reveal" href="#ballistic-highlight">
+<div class="flagship-media ballistic-representative"><img alt="방탄 플레이트 Explicit Dynamics 변형 해석 대표 프레임" src="assets/ballistic_impact_demo_poster.jpg"/><span class="media-play">▶ 7.7 s simulation</span></div>
+<div class="flagship-copy"><span>02 · ENGINEERING CASE</span><h3>Ballistic Impact CAE · Reference Reproduction</h3><p>선행연구 조건을 재현하고 material·mesh·contact·time-step 문제를 분리해 수치 모델을 안정화.</p><b>Literature Reproduction · Explicit Dynamics · Comparison →</b></div>
+</a>
+</div>
+</section><section class="section container research-paper" id="dcf-highlight">
+<header class="paper-header reveal">
+<div><p class="eyebrow">FLAGSHIP 01 · RESEARCH CASE / FEM-AI</p><h2>FEM-Based AI Surrogate Model for DCF<br/>Performance Prediction &amp; Inverse Design</h2><p class="paper-subtitle">구조해석 데이터에서 역설계와 논문화까지 연결한 CAE-AI 연구</p></div>
+<span class="paper-status">FEM → AI → INVERSE DESIGN</span>
+</header>
+<div class="paper-meta reveal">
+<div><span>MY ROLE</span><strong>FEM Dataset · PyTorch Model · Optimization · Re-analysis</strong></div>
+<div><span>DATASET</span><strong>350 FEM Cases</strong></div>
+<div><span>MODEL</span><strong>Multi-Layer Perceptron (MLP)</strong></div>
+<div><span>CHECK</span><strong>3 Seeds + FEM Re-analysis</strong></div>
+</div>
+<article class="abstract-box reveal">
+<span>ABSTRACT / PROJECT SUMMARY</span>
+<p>반복 FEM 해석 비용을 줄이기 위해 DCF(Double Compound Flexure)의 형상·하중 조건과 구조 응답 간 관계를 학습하는 대리모델을 구축했습니다. <strong>입력변수 정의 → 350개 FEM 데이터 생성 → MLP 학습 → 반복 평가 → SLSQP 역설계 → FEM 재해석</strong>의 전체 흐름을 직접 구성해 예측값이 실제 해석에서도 유지되는지 확인했습니다.</p>
+</article>
+<div class="research-question reveal"><span>RESEARCH QUESTION</span><h3>설계변수와 하중이 달라질 때 DCF 구조응답을 반복 FEM 없이 빠르게 예측하고, 목표 성능으로부터 형상을 역으로 찾을 수 있는가?</h3></div>
+<figure class="workflow-figure reveal">
+<img alt="DCF FEM-AI 전체 연구 워크플로우" src="assets/dcf_workflow.png"/>
+<figcaption>Research workflow · Sampling → FEM → Dataset → MLP → Evaluation → SLSQP Inverse Design → FEM Re-analysis</figcaption>
+</figure>
+<div class="paper-section-label reveal"><span>MY CONTRIBUTION</span><h3>직접 수행한 핵심 작업</h3></div>
+<div class="contribution-grid reveal">
+<article><span>01</span><h4>Research Framework</h4><p>CAE-AI 선행연구 조사와 중앙 원형 홀 평판 파일럿을 통해 방법론을 검증한 뒤 DCF 문제로 확장했습니다.</p></article>
+<article><span>02</span><h4>Dataset Engineering</h4><p>힌지 형상 변수와 하중을 입력으로 정의하고 Static Structural / Modal Analysis 결과로 총 350개 FEM 데이터를 구축했습니다.</p></article>
+<article><span>03</span><h4>Surrogate Modeling</h4><p>다중 구조응답을 동시에 예측하는 MLP를 구성하고 3개 random seed 반복 평가로 성능 변동을 확인했습니다.</p></article>
+<article><span>04</span><h4>Inverse Design</h4><p>Sequential Least Squares Programming(SLSQP) 최적화로 목표 변위를 만족하는 형상을 도출하고, 해당 설계를 FEM으로 다시 해석해 오차를 확인했습니다.</p></article>
+<article><span>05</span><h4>Result Documentation</h4><p>연구 목적, 방법론, 정량 결과, 한계와 향후 과제를 원고 구조로 정리해 결과와 판단 근거를 문서화했습니다.</p></article>
+</div>
+<div class="dcf-evidence reveal">
+<div class="evidence-visual"><img alt="DCF 형상과 유한요소 메쉬" src="assets/dcf_geometry_mesh.png"/><small>Geometry &amp; FEM model</small></div>
+<div class="evidence-visual"><img alt="FEM 기준값과 AI 예측값 parity plot" src="assets/dcf_parity.png"/><small>Prediction validation</small></div>
+<div class="result-panel">
+<span>KEY RESULTS</span>
+<div><strong>R² &gt; 0.99</strong><small>3-seed 기준 주요 출력 변수</small></div>
+<div><strong>350</strong><small>250 global + 100 local FEM samples</small></div>
+<div><strong>1.90–3.50%</strong><small>5개 역설계 변위 FEM 재검증 오차</small></div>
+<div><strong>5 Cases</strong><small>목표 변위 + 허용응력 조건 역설계</small></div>
+</div>
+</div>
+<div class="research-origin reveal">
+<div><span>RESEARCH ORIGIN</span><h3>Reference-based CAE-AI Pilot → DCF Research</h3><p>중앙 원형 홀 평판의 ¼ 대칭 FEM 모델과 ANN 구조응답 예측 문제를 재현하며 CAE-AI 파이프라인을 먼저 익힌 뒤, 실제 정밀 메커니즘 문제로 난도를 확장했습니다.</p></div>
+<img alt="중앙 원형 홀 1/4 대칭 CAE-AI 파일럿" src="assets/cae_ai_02_problem.png"/>
+</div>
+<div class="paper-output reveal"><span>WHY THIS PROJECT MATTERS</span><h3>예측 성능보다, 다시 FEM으로 확인하는 검증 루프를 만들었습니다.</h3><p>높은 R²만 제시하지 않고 역설계된 형상을 다시 유한요소해석해 목표 변위와의 상대오차를 확인했습니다. 모델 성능 → 설계 도출 → 물리 기반 재검증으로 연결한 점이 이 프로젝트의 핵심입니다.</p></div>
+</section><section class="section container cae-case" id="ballistic-highlight">
+<header class="cae-header reveal">
+<div><p class="eyebrow">FLAGSHIP 02 · ENGINEERING CASE / EXPLICIT DYNAMICS</p><h2>Literature-Based Ballistic Impact Analysis<br/>&amp; Numerical Model Stabilization</h2><p>선행연구 재현에서 방탄 헬멧 적용까지 이어진 Explicit Dynamics 해석</p></div>
+<span class="cae-status">REFERENCE → STABILIZATION → COMPARISON</span>
+</header>
+<div class="ballistic-video-hero reveal">
+  <div class="ballistic-video-frame">
+    <video autoplay muted loop playsinline controls preload="metadata" poster="assets/ballistic_impact_demo_poster.jpg">
+      <source src="assets/ballistic_impact_demo.mp4" type="video/mp4"/>
+    </video>
+  </div>
+  <div class="ballistic-video-copy">
+    <span>REPRESENTATIVE SIMULATION</span>
+    <h3>충돌 이후 변형이 시간에 따라 전개되는 Explicit Dynamics 결과</h3>
+    <p>영상에서 탄두 충돌 직후 plate 변형이 시간에 따라 진행되는 과정을 확인할 수 있습니다. 문헌 조건 재현에서 시작해 수치 모델 안정화와 헬멧 형상 적용까지 동일한 충돌 해석 workflow를 확장했습니다.</p>
+    <div class="ballistic-video-meta"><b>ANSYS Explicit Dynamics</b><b>Total Deformation</b><b>Time-resolved result</b></div>
+  </div>
+</div>
+<div class="engineering-thesis reveal"><strong>Engineering Focus</strong><p>단순히 해석 결과를 얻는 것이 아니라, 선행연구를 기준으로 모델을 재현하고 결과 차이의 원인을 추적해 해석 조건을 보정했습니다.</p></div>
+<div class="case-flow reveal">
+<div><span>01</span><b>Study</b><small>Explicit 기본조건 학습</small></div><i>→</i>
+<div><span>02</span><b>Reference</b><small>논문 조건 재현</small></div><i>→</i>
+<div><span>03</span><b>Failure</b><small>Solver 불안정 발생</small></div><i>→</i>
+<div><span>04</span><b>Calibration</b><small>EOS · Mesh · Time Step</small></div><i>→</i>
+<div><span>05</span><b>Comparison</b><small>문헌 결과 비교</small></div><i>→</i>
+<div><span>06</span><b>Application</b><small>Helmet geometry</small></div>
+</div>
+<div class="cae-stage reveal">
+<div class="cae-visual-stack">
+<figure><img alt="선행논문의 plate projectile 형상과 394 m/s 조건" src="assets/ballistic_stage2_reference_geometry.png"/><figcaption>Reference geometry &amp; impact condition</figcaption></figure>
+<figure><img alt="방탄 헬멧 유한요소 메쉬" src="assets/ballistic_helmet_mesh_crop.png"/><figcaption>Helmet mesh application</figcaption></figure>
+<figure><img alt="Copper projectile material Shock EOS 설정" src="assets/ballistic_eos_copper_crop.png"/><figcaption>Copper jacket material model</figcaption></figure>
+</div>
+<aside class="cae-report">
+<p class="report-label">SIMULATION SETUP</p>
+<table>
+<tr><th>Solver</th><td>ANSYS Explicit Dynamics</td></tr>
+<tr><th>Reference Plate</th><td>150 × 150 × 6.94 mm</td></tr>
+<tr><th>Projectile</th><td>9 mm FMJ · Copper jacket / Lead core</td></tr>
+<tr><th>Impact</th><td>394 m/s · reference impact condition</td></tr>
+<tr><th>Mesh Basis</th><td>Plate ≈ 1.0 mm / Projectile ≈ 0.4 mm</td></tr>
+<tr><th>Boundary / Contact</th><td>Reference support condition reproduction + impact contact simplification</td></tr>
+<tr><th>Material Model</th><td>Johnson–Cook + Shock EOS Linear</td></tr>
+<tr><th>Failure Handling</th><td>Plastic-strain based erosion</td></tr>
+<tr><th>Stability</th><td>Mesh / contact / minimum time-step tuning</td></tr>
+</table>
+<div class="report-note"><strong>Why it matters</strong><p>고속 충돌해석에서는 형상보다도 재료모델, contact, 요소크기와 stable time step의 조합이 결과 신뢰성과 계산 안정성을 좌우했습니다.</p></div>
+</aside>
+</div>
+<div class="debug-story reveal">
+<div class="debug-copy"><span>NUMERICAL DEBUGGING</span><h3>“왜 계산이 안 되는가?”를 설정 단위로 분리했습니다.</h3><p>논문 값을 그대로 옮겼을 때 발생한 EOS 및 Johnson–Cook 관련 문제와 <code>time step too small</code> 오류를 재료모델·mesh·contact·erosion 조건으로 나눠 확인했습니다. LS-DYNA용 EOS_Mie-Gruneisen 설정을 ANSYS Explicit 환경의 Shock EOS Linear로 재구성하고, 지나치게 작은 요소와 불필요한 contact를 정리하면서 모델을 안정화했습니다.</p></div>
+<div class="debug-images"><img alt="Explicit Dynamics 디버깅 과정" src="assets/ballistic_stage3_debug.png"/><img alt="Copper Shock EOS 설정" src="assets/ballistic_eos_copper_crop.png"/></div>
+</div>
+<div class="validation-report reveal">
+<div class="validation-copy"><span>REFERENCE COMPARISON</span><h3>문헌 실험·수치해석 결과와 직접 비교</h3><p>최종 plate impact 모델의 변형 깊이를 문헌 실험값과 수치해석 결과에 비교해 재현 수준을 정량적으로 확인했습니다. 차이가 발생하면 모델링 가정과 수치조건으로 돌아가 원인을 점검했습니다.</p></div>
+<div class="validation-metrics"><div><span>Reference Experiment</span><strong>8.00 mm</strong></div><div><span>Reference Numerical</span><strong>8.79 mm</strong></div><div class="accent"><span>ANSYS Reproduction</span><strong>≈ 8.32 mm</strong></div></div>
+<div class="validation-images"><img alt="선행연구 기준 결과" src="assets/ballistic_stage5_reference.png"/><img alt="ANSYS 재현 결과" src="assets/ballistic_stage5_ours.png"/></div>
+</div>
+<div class="helmet-application reveal"><div><span>EXPLORATORY APPLICATION</span><h3>재현·안정화 workflow를 헬멧 형상으로 확장</h3><p>plate–projectile 재현 과정에서 정리한 충돌조건과 재료모델을 단순 헬멧 형상에 적용해 394 m/s 조건에서 응력 분포와 구조 거동을 탐색했습니다.</p></div><img alt="방탄 헬멧 Equivalent Stress 결과" src="assets/ballistic_helmet_result_crop.png"/></div>
+<div class="beyond-simulation reveal"><span>BEYOND THE SIMULATION</span><h3>CAE 스터디 운영과 연구환경 관리</h3><p>개인 해석에서 끝내지 않고 CAE 스터디를 주도하며 모델링·오류 해결 과정을 공유했고, 연구실 장비 관리 경험을 통해 해석 업무와 연구환경 운영을 함께 경험했습니다.</p></div>
+<blockquote class="cae-learning reveal"><span>WHAT I LEARNED</span>CAE에서 중요한 것은 Solver를 실행하는 것이 아니라, 결과를 신뢰할 수 있도록 모델링 가정과 수치조건을 설명할 수 있는 것입니다.</blockquote>
+</section><div class="post-flagship-wrap">
+<section class="section container" id="experience">
+<div class="section-head compact-head reveal"><p class="eyebrow">RESEARCH &amp; ENGINEERING EXPERIENCE</p><h2>연구 수행을 뒷받침하는 실무형 경험</h2></div>
+<div class="experience-grid reveal">
+<article><span>INDUSTRY COLLABORATION</span><h3>SAFE-ONEQ · ㈜에듀원큐</h3><p>영남대학교–㈜에듀원큐 산학협력 R&amp;D 기획에서 사족보행·휴머노이드 협업 순찰과 관제 AI 플랫폼의 <strong>사업계획 및 기술구성 문서 작성·정리</strong>에 참여했습니다. 기관별 역할, 현장 실증 시나리오, On-Device AI·로봇 H/W·자율주행 기술을 하나의 과제로 구조화하는 과정을 경험했습니다.</p></article>
+<article><span>CAE STUDY LEAD</span><h3>CAE 구조 전문가 시험 대비 스터디</h3><p>민간 CAE 구조 전문가 시험을 목표로 스터디를 운영하며 기출문제와 구조해석 절차를 반복 학습했습니다. 해석 문제를 함께 풀이하고 모델링·결과 해석 과정을 구성원에게 설명하며 CAE 기초와 문제 해결 과정을 체계화했습니다.</p></article>
+<article><span>TEAM LEADERSHIP</span><h3>Humanoid Team Lead · L.O.B.O.T</h3><p>휴머노이드 팀 리더로 활동하며 역할 분담과 진행 상황을 조율하고, 팀 단위 구현 과제를 끝까지 진행하는 경험을 쌓았습니다.</p></article>
+<article><span>RESEARCH ENVIRONMENT</span><h3>Undergraduate Researcher · NTIS</h3><p>Robot System Lab 학부연구생으로 연구·실험·문서화에 참여했고, NTIS 국가연구자 등록 및 연구실 장비 관리 경험을 통해 연구환경 운영도 함께 경험했습니다.</p></article>
+</div>
+<div class="proposal-experience reveal">
+  <div class="proposal-badge">R&amp;D PROPOSAL · CONCEPT STAGE</div>
+  <div>
+    <h3>DCF 아이디어 기반 기업과제 연구개발계획서 기획·작성</h3>
+    <p>기존 DCF 연구 아이디어를 기업과제 형식으로 확장해 문제 정의, 연구목표, 수행 방법 및 기대성과를 연구개발계획서로 직접 구성해 제안했습니다.</p>
+  </div>
+</div>
+</section>
+<section class="section container other-projects" id="other-projects">
+<div class="section-head compact-head reveal"><p class="eyebrow">OTHER ENGINEERING WORKS</p><h2>주력 연구를 보완하는 로봇·비전·멘토링 경험</h2><p>D455 팬·틸트 추적, AprilTag 모바일 로봇 접근 제어, R&amp;E 자세 교정 시스템을 통해 비전·제어·프로토타이핑 경험을 확장했습니다.</p></div>
+<div class="other-grid">
+<article class="other-card reveal" data-project="turret"><img alt="D455 Pan Tilt 자동 추적 시스템" src="assets/turret_system.png"/><div><span>ROBOTICS / TRACKING / JOURNAL PAPER</span><h3>D455 Pan/Tilt Target Tracking</h3><p>ArUco 연동 검증에서 출발해 HSV 기반 녹색 풍선 추적, P 제어·EMA·deadband 튜닝 및 23회 run 단위 성능평가까지 확장한 시스템.</p><small class="paper-status">Journal paper · Accepted 2026.09.16</small><b>View case →</b></div></article>
+<article class="other-card reveal" data-project="apriltag"><img alt="AprilTag 모바일 로봇 학회 포스터" src="assets/apriltag_conference_poster.png"/><div><span>ROBOT VISION / CONFERENCE</span><h3>AprilTag Mobile Robot Approach Control</h3><p>단안 RGB 카메라 기반 거리 추정과 접근·정지 제어를 평가하고 학회에서 발표.</p><b>View case →</b></div></article>
+<article class="other-card reveal rne-card" data-project="rne">
+<div class="rne-cover" aria-label="경산과학고 R&amp;E 프로젝트 이미지">
+  <img class="rne-main" src="assets/rne_robot_cad.png" alt="R&amp;E 모니터암 로봇팔 CAD 설계"/>
+  <img src="assets/rne_robot_test.webp" alt="연구실 로봇팔 제어 실험"/>
+  <img src="assets/rne_face_tracking.webp" alt="OpenCV 기반 얼굴 중심점 추적 실험"/>
+</div>
+<div><span>R&amp;E MENTORING / PROTOTYPING / PATENT</span><h3>Posture-Aware Display System R&amp;E</h3><p>로봇팔 기구 설계, 실제 제어 실험, 얼굴 추적을 단계적으로 검증하고 자세 교정 아이디어를 특허 출원으로 확장.</p><small class="paper-status">Patent Application · 10-2025-0134168</small><b>View case →</b></div></article>
+</div>
+</section>
+</div><section class="section container outputs-section" id="outputs">
+<div class="section-head compact-head reveal"><p class="eyebrow">RESEARCH OUTPUTS</p><h2>결과를 원고·저널 논문·학회·특허로 남겼습니다.</h2></div>
+<div class="outputs-grid reveal">
+<article class="output-card paper"><span>MANUSCRIPT / DCF FEM-AI</span><h3>DCF 성능 예측 및 역설계를 위한 FEM 기반 딥러닝 대리모델</h3><p>연구 배경, 방법론, 정량 결과, 역설계와 FEM 재해석 결과를 원고 형태로 정리한 대표 연구 산출물.</p><small>350 FEM cases · MLP surrogate · SLSQP inverse design · FEM re-analysis</small></article>
+<article class="output-card journal"><span>JOURNAL PAPER / ACCEPTED 2026.09.16</span><h3>소형 이동 객체 대응을 위한 영상 기반 팬·틸트 터렛 시스템 구현 및 성능 평가</h3><p>정효영 · 김민영 · 조광현 · 성기정 · 이동연* · Journal of the Korea Academia-Industrial Cooperation Society. D455 기반 실제 시스템 구현과 제어조건 변화에 따른 반복 실험을 run 단위로 정량 평가했습니다.</p><small>23 eligible runs · Baseline 90.70 px → Tuned-A 15.46 px mean center error · publication date pending</small></article>
+<article class="output-card poster"><span>CONFERENCE / ICROS 2026</span><h3>카메라 기반 AprilTag 상대거리 추정 및 모바일 로봇 접근 제어 성능 평가</h3><p>2026 제41회 제어·로봇·시스템학회 학부생 논문경진대회 포스터 발표.</p><a href="assets/apriltag_conference_poster.pdf" rel="noopener" target="_blank">Poster PDF →</a></article>
+<article class="output-card patent"><span>PATENT APPLICATION / 2025.09.18</span><h3>실시간 거북목 증후군 예방 및 교정을 위한 디스플레이 위치 자동 제어 시스템</h3><p>R&amp;E 활동에서 구체화한 자세 인식·디스플레이 자동 위치제어 아이디어를 특허 출원으로 확장했습니다.</p><small>Application No. 10-2025-0134168 · Inventor 정효영</small></article>
+</div>
+</section>
+
+<section class="section container" id="skills">
+<div class="section-head reveal"><p class="eyebrow">TOOLS / TECH STACK</p><h2>주요 연구 도구</h2><p>ANSYS Workbench, SolidWorks, Python/PyTorch와 로봇 센서·구동계를 해석, 모델링, 최적화, 제어 목적에 맞춰 활용했습니다.</p></div>
+<div class="skill-columns">
+<div class="skill-box reveal">
+<h3>Simulation / CAD</h3>
+<div class="chip-wrap">
+<span>ANSYS Workbench</span><span>Static Structural</span><span>Modal Analysis</span>
+<span>Explicit Dynamics</span><span>SolidWorks</span>
+</div>
+</div>
+<div class="skill-box reveal">
+<h3>AI / Data</h3>
+<div class="chip-wrap">
+<span>Python</span><span>PyTorch</span><span>scikit-learn</span>
+<span>NumPy</span><span>Pandas</span><span>Optimization</span>
+</div>
+</div>
+<div class="skill-box reveal">
+<h3>Robotics</h3>
+<div class="chip-wrap">
+<span>Intel RealSense D455</span><span>AprilTag</span><span>DYNAMIXEL</span>
+<span>Arduino</span><span>PD Control</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section container process compact-process">
+<div class="section-head reveal">
+<p class="eyebrow">ENGINEERING APPROACH</p>
+<h2>문제를 다루는 방식</h2>
+</div>
+<div class="timeline reveal">
+<div><span>01</span><h3>문제 정의</h3><p>무엇이 실제 성능 병목인지 수치와 현상으로 분리</p></div>
+<div><span>02</span><h3>모델링</h3><p>설계 변수·경계조건·센서/제어 구조를 명확히 정의</p></div>
+<div><span>03</span><h3>검증</h3><p>실험, FEM, 데이터 기반 모델을 교차 검증</p></div>
+<div><span>04</span><h3>개선</h3><p>오차 원인을 기준으로 형상·파라미터·모델을 반복 개선</p></div>
+</div>
+</section>
+<section class="section container contact" id="contact">
+<div class="contact-card reveal">
+<div>
+<p class="eyebrow">CONTACT</p>
+<h2>Research / Engineering opportunities</h2>
+<p>
+            Mechanical R&amp;D · CAE · FEM-AI 관련 연구 및 엔지니어링 기회에 열려 있습니다.
+          </p>
+</div>
+<div class="contact-links">
+<a href="mailto:jhy2944@gmail.com">jhy2944@gmail.com</a>
+<span>Yeungnam University · Robotics Engineering</span>
+<span>Robot System Lab · Undergraduate Researcher</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="container footer">
+<span>© 2026 R&amp;D Portfolio</span>
+<span>Built for Mechanical R&amp;D Engineering</span>
+</footer>
+<div aria-hidden="true" class="modal" id="projectModal">
+<div class="modal-backdrop" data-close=""></div>
+<div class="modal-panel">
+<button aria-label="닫기" class="modal-close" data-close="">×</button>
+<p class="eyebrow" id="modalEyebrow"></p>
+<h2 id="modalTitle"></h2>
+<div id="modalContent"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
